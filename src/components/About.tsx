@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useInView } from "react-intersection-observer";
-import myImage from "../images/yaw uaw (1).jpeg";
+import myImage from "../images/yaw.webp";
 
 const About = () => {
   const [activeTab, setActiveTab] = useState("skills");

@@ -45,7 +45,7 @@ export const projects: Project[] = [
     description:
       "Complete flyer for a local trader it includes a logo, color palette, typography, and brand guidelines.",
     image: KeleweleImage,
-    link: "https://drive.google.com/drive/u/0/my-drive",
+    link: "https://www.instagram.com/p/DJGm0MeM85U/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     category: "graphic",
     tech: ["Photoshop", "Illustrator"],
   },
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     description:
       "Shirt design for a University Denomination it includes typography, color and brand guidelines.",
     image: TShirt,
-    link: "https://drive.google.com/drive/u/0/my-drive",
+    link: "https://www.instagram.com/p/CqbH8myLKR6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     category: "graphic",
     tech: ["Illustraor", "Photoshop"],
   },
@@ -65,17 +65,17 @@ export const projects: Project[] = [
     description:
       "Complete flyer for a local shoe seller it includes a logo, color palette, typography, and brand guidelines.",
     image: ShoeFlyer,
-    link: "https://drive.google.com/drive/u/0/my-drive",
+    link: "https://www.instagram.com/p/C1q6Dh6sB88/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     category: "graphic",
     tech: ["Illustrator", "3D Mockup", "Photoshop"],
   },
   {
-    id: "Mind Space ",
-    title: "Mind Space UI",
+    id: "Church UI ",
+    title: "Church UI",
     description:
-      "A web app where you can book a mental health doctor, featuring bold typography and vibrant colors.",
+      "A web ui for a church platform, focusing on user experience and conversion optimization.",
     image: DashboardUI,
-    link: "https://www.figma.com/proto/K42XazX4oRiU03xQKgkw1j/Untitled?node-id=0-13369&t=CRpqenwz1hSeosoK-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    link: "https://www.figma.com/proto/Z0u9bsWlDYLggWLRHM373X/GAC-UI?node-id=27-27&t=7RoFzEsvkWcFlQRa-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=27%3A27",
     category: "uiux",
     tech: ["Figma", "Illustrator"],
   },
