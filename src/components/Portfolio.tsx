@@ -5,7 +5,7 @@ import { Project, CategoryInfo } from "../types";
 import KeleweleImage from "../images/kelewele elean.webp";
 import TShirt from "../images/tShirt .webp";
 import ShoeFlyer from "../images/shoeBuss.webp";
-import DashboardUI from "../images/dashboard.webp";
+import MentalHealth from "../images/landing-page.webp";
 import ChowVilla from "../images/chowVilla.webp";
 import Events from "../images/Events.webp";
 import { ExternalLink } from "lucide-react";
@@ -70,12 +70,12 @@ export const projects: Project[] = [
     tech: ["Illustrator", "3D Mockup", "Photoshop"],
   },
   {
-    id: "Church UI ",
-    title: "Church UI",
+    id: "Mental Health",
+    title: "Mental Health UI",
     description:
-      "A web ui for a church platform, focusing on user experience and conversion optimization.",
-    image: DashboardUI,
-    link: "https://www.figma.com/proto/Z0u9bsWlDYLggWLRHM373X/GAC-UI?node-id=27-27&t=7RoFzEsvkWcFlQRa-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=27%3A27",
+      "A web ui for a mental health platform, focusing on user experience and accessibility.",
+    image: MentalHealth,
+    link: "https://www.figma.com/proto/RCQ9YGesbb3hrQvHyBRoyp/calme-mental-health-ui?node-id=0-120&t=gX27ddcGh57CIKG7-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     category: "uiux",
     tech: ["Figma", "Illustrator"],
   },
