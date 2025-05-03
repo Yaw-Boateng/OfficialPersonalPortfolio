@@ -1,7 +1,7 @@
-import React from 'react';
-import { ExternalLink, Github } from 'lucide-react';
-import { projects } from '../data/projects';
-import { useInView } from 'react-intersection-observer';
+import React from "react";
+import { ExternalLink, Github } from "lucide-react";
+import { projects } from "../data/projects";
+import { useInView } from "react-intersection-observer";
 
 const Projects: React.FC = () => {
   return (
@@ -23,19 +23,20 @@ const Projects: React.FC = () => {
 const ProjectCard: React.FC<{ project: any }> = ({ project }) => {
   const { ref, inView } = useInView({
     threshold: 0.1,
-    triggerOnce: true
+    triggerOnce: true,
   });
 
   return (
     <div
       ref={ref}
       className={`bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transform transition-all duration-700 ${
-        inView ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+        inView ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
       }`}
     >
       <img
         src={project.imageUrl}
         alt={project.title}
+        loading="lazy"
         className="w-full h-48 object-cover"
       />
       <div className="p-6">
