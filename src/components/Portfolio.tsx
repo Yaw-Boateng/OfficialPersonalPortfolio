@@ -103,14 +103,14 @@ export const projects: Project[] = [
     tech: ["Figma", "User Testing", "Prototyping"],
   },
   {
-    id: "Web Dev 1",
-    title: "Personal Portfolio",
+    id: "library-app",
+    title: "Library App",
     description:
-      "Interactive portfolio showcasing design and development projects with smooth UX and animations.",
-    image: "https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg",
-    link: "https://augustineasanteboateng.firebaseapp.com/",
+      "Library Application that can help you to manage your books. It has features like adding books, searching books, and deleting books.",
+    image: "https://imgs.search.brave.com/ria96gecFHNfQQRO8Gsjthtv9rMIxJn5TmkakH3tj3A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/bGVhbi1lbXB0eS1s/aWJyYXJ5LWhhbGxf/MjMtMjE0OTIxNTQx/NC5qcGc_c2VtdD1h/aXNfaHlicmlkJnc9/NzQw",
+    link: "https://bookielib.netlify.app/",
     category: "frontend",
-    tech: ["HTML", "CSS", "JavaScript"],
+    tech: ["React", "Tailwind Css"]
   },
 
   // Frontend Development Projects
@@ -125,14 +125,14 @@ export const projects: Project[] = [
     tech: ["Wordpress", "Avada"],
   },
   {
-    id: "Weather App",
-    title: "Weather App",
+    id: "Advertisement-app-1",
+    title: "Advertisement App",
     description:
-      " I created a weather app using html,css and JS, featuring smooth animations and a modern design.",
-    image: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg",
-    link: "https://github.com/Yaw-Boateng/weatherApp",
+      " A web application that allows users to create and manage advertisements for their products or services.",
+    image: "https://imgs.search.brave.com/deugLpdB6geMS5b6KwMP6qfjn5xKc4ni-886dmXBAtM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9hZHZl/cnRpc2luZy1jb25j/ZXB0LWF0dHJhY3Rp/dmUtY2F1Y2FzaWFu/LWdpcmwtZ2xhc3Nl/cy1jcmVhdGl2ZS1z/a2V0Y2gtY29uY3Jl/dGUtYmFja2dyb3Vu/ZC04MTkyNzc3Mi5q/cGc",
+    link: "https://adifyc5.netlify.app/",
     category: "frontend",
-    tech: ["HTML", "CSS", "JS"],
+    tech: ["React", "Tailwind Css"],
   },
 ];
 
